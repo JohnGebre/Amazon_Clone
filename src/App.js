@@ -8,7 +8,6 @@ import Login from "./components/Login/Login";
 import { auth } from "./components/Firebase/Firebase";
 import { useStateValue } from "./components/StateProvider/StateProvider";
 
-
 function App() {
   const [{}, dispatch] = useStateValue();
 

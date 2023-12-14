@@ -1,23 +1,45 @@
+import { Link, useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import "./Login.css";
+import { auth } from "../Firebase/Firebase";
+import {
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+} from "firebase/auth";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const signIn = (e) => {
     e.preventDefault();
-  };
-  const register = (e) => {
-    e.preventDefault();
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        if (userCredential) navigate("/");
+      })
+      .catch((error) => alert(error.message));
   };
 
+  const register = (e) => {
+    e.preventDefault();
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        if (userCredential) navigate("/");
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        alert(errorMessage);
+      });
+  };
   return (
     <div className="login">
-      <img
-        className="login__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
-      />
+      <Link to="/">
+        <img
+          className="login__logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+        />
+      </Link>
       <div className="login__container">
         <h1>Sign-in</h1>
 

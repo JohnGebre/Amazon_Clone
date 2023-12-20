@@ -15,24 +15,17 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="Original Peloton Bike | Indoor Stationary Exercise Bike with Immersive 22 HD Touchscreen (Updated Seat Post)"
-            price={1240.96}
+            title="Ethiopian Original Shirt | Ethiopia Flag Shirt | Ethiopian T-Shirt"
+            price={22.35}
             rating={5}
-            image="https://m.media-amazon.com/images/I/41YOzjtQxtL._AC_SY164_.jpg"
+            image="https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C81XFfNFTOEL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX342_.png"
           />
-          {/* <Product
-            id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
-          /> */}
           <Product
             id="49538094"
-            title="Hamilton Beach 35032 Professional Style Electric Deep Fryer, Frying Basket with Hooks, 1500 Watts, 3 Liters, Stainless Steel"
+            title="iOttie Easy One Touch Dashboard Car Mount Phone Holder iPhone, Samsung, Google and Smartphones"
             price={239.0}
             rating={3}
-            image="https://m.media-amazon.com/images/I/41QmphaNreL._AC_SY164_.jpg"
+            image="https://m.media-amazon.com/images/I/61XzOG9rAwL._AC_SX679_.jpg"
           />
           <Product
             id="49538094"
@@ -60,10 +53,10 @@ function Home() {
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
+            title="Ethiopian Flag Lion Map Pendant Necklace For Women Men Jewelry Map Chain"
+            price={13.5}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://m.media-amazon.com/images/I/61mJUWHzq2L._AC_SY500_.jpg"
           />
           <Product
             id="3254354345"
@@ -77,10 +70,74 @@ function Home() {
         <div className="home__row">
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            title="LG 45GR65DC-B 45' Ultragear™ QHD 1ms 200Hz Curved Gaming Monitor with VESA DisplayHDR™ 600 (DisplayPort,HDMI), Black"
+            price={240.98}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://m.media-amazon.com/images/I/71UAhke5vxL._AC_SX679_.jpg"
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="4903850"
+            title="Silonn Nugget Ice Maker Countertop, One-Click Operation Ice Machine with Self-Cleaning, Kitchen, Office"
+            price={179.45}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/71Mp3Xt65KL._SX466_.jpg"
+          />
+          <Product
+            id="23445930"
+            title="AYEANY Lunch box Lunch bag for men women Lunch bags Insulated Lunch bag Lunch box cooler (Black)"
+            price={38.99}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/71961Si2zfL._AC_SX425_.jpg"
+          />
+          <Product
+            id="3254354345"
+            title="Mini Portable Washing Machine Foldable:Small Collapsible Laundry Washer for Travel, Apartment, Underwears, Socks, Baby Clothes (Green)"
+            price={69.99}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/71dfXUGu07L._AC_SX679_.jpg"
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="90829332"
+            title="Deco Gear 49' Curved Ultrawide  Gaming Monitor, Immersive 3840x1080 Resolution, 144Hz Refresh Rate, 3000:1 Contrast Ratio"
+            price={369.98}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/71LDbprgVEL._AC_SX679_.jpg"
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="4903850"
+            title="ASUS Vivobook 16X 16 FHD Business Laptop, AMD Ryzen 7 5800H, 16GB RAM, 512GB PCIe SSD, AMD Radeon Graphics, HD Camera, Bluetooth, Blue, Win 11 "
+            price={199.99}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/813013ur94L._AC_SX679_.jpg"
+          />
+          <Product
+            id="23445930"
+            title="Samsung Galaxy Z Flip 3 5G T-Mobile Locked Android Cell Phone Smartphone Flex Mode Intuitive Camera Compact 128GB Storage US Warranty(Lavender)"
+            price={498.99}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/61pyKxTlLpL._AC_SX679_.jpg"
+          />
+          <Product
+            id="3254354345"
+            title="Handheld Sewing Machine with USB Cable Fast Stitch Portable Sewing Machine for Beginners Mini Electric Sewing Machine for DIY Home Travel"
+            price={27.99}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/71Logrrj++L._AC_SX425_.jpg"
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="90829332"
+            title="Packard Bell 21 Inch Monitor FHD 1920 x 1080 , Dual Monitor, Ultrawide Monitor, Basic & Gaming Monitor – 2 Pack"
+            price={245.98}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/817zwrMy+XL._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg"
           />
         </div>
       </div>

@@ -21,23 +21,23 @@ function Home() {
             image="https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C81XFfNFTOEL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX342_.png"
           />
           <Product
-            id="49538094"
+            id="49518094"
             title="iOttie Easy One Touch Dashboard Car Mount Phone Holder iPhone, Samsung, Google and Smartphones"
-            price={239.0}
+            price={27.75}
             rating={3}
             image="https://m.media-amazon.com/images/I/61XzOG9rAwL._AC_SX679_.jpg"
           />
           <Product
             id="49538094"
             title="Nespresso VertuoPlus Coffee and Espresso Machine by Breville,60 fluid ounces, Ink Black"
-            price={139.0}
+            price={139.55}
             rating={5}
             image="https://m.media-amazon.com/images/I/4177C9IR-7L._AC_SY164_.jpg"
           />
           <Product
-            id="49538094"
+            id="49534094"
             title="KJBL Tune 510BT: Wireless On-Ear Headphones with Purebass Sound - Black"
-            price={64.0}
+            price={64.99}
             rating={3}
             image="https://m.media-amazon.com/images/I/417pumnhthL._AC_SY164_.jpg"
           />
@@ -45,23 +45,23 @@ function Home() {
 
         <div className="home__row">
           <Product
-            id="4903850"
+            id="49038550"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
             price={199.99}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
           />
           <Product
-            id="23445930"
+            id="234459730"
             title="Ethiopian Flag Lion Map Pendant Necklace For Women Men Jewelry Map Chain"
-            price={13.5}
+            price={13.55}
             rating={5}
             image="https://m.media-amazon.com/images/I/61mJUWHzq2L._AC_SY500_.jpg"
           />
           <Product
             id="3254354345"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
+            price={574.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
@@ -78,21 +78,21 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="4903850"
+            id="49403850"
             title="Silonn Nugget Ice Maker Countertop, One-Click Operation Ice Machine with Self-Cleaning, Kitchen, Office"
             price={179.45}
             rating={3}
             image="https://m.media-amazon.com/images/I/71Mp3Xt65KL._SX466_.jpg"
           />
           <Product
-            id="23445930"
+            id="234425930"
             title="AYEANY Lunch box Lunch bag for men women Lunch bags Insulated Lunch bag Lunch box cooler (Black)"
-            price={38.99}
+            price={39.99}
             rating={5}
             image="https://m.media-amazon.com/images/I/71961Si2zfL._AC_SX425_.jpg"
           />
           <Product
-            id="3254354345"
+            id="32543584345"
             title="Mini Portable Washing Machine Foldable:Small Collapsible Laundry Washer for Travel, Apartment, Underwears, Socks, Baby Clothes (Green)"
             price={69.99}
             rating={4}
@@ -101,7 +101,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="90829332"
+            id="908269332"
             title="Deco Gear 49' Curved Ultrawide  Gaming Monitor, Immersive 3840x1080 Resolution, 144Hz Refresh Rate, 3000:1 Contrast Ratio"
             price={369.98}
             rating={4}
@@ -110,21 +110,21 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="4903850"
+            id="490381250"
             title="ASUS Vivobook 16X 16 FHD Business Laptop, AMD Ryzen 7 5800H, 16GB RAM, 512GB PCIe SSD, AMD Radeon Graphics, HD Camera, Bluetooth, Blue, Win 11 "
             price={199.99}
             rating={3}
             image="https://m.media-amazon.com/images/I/813013ur94L._AC_SX679_.jpg"
           />
           <Product
-            id="23445930"
+            id="2344599830"
             title="Samsung Galaxy Z Flip 3 5G T-Mobile Locked Android Cell Phone Smartphone Flex Mode Intuitive Camera Compact 128GB Storage US Warranty(Lavender)"
             price={498.99}
             rating={5}
             image="https://m.media-amazon.com/images/I/61pyKxTlLpL._AC_SX679_.jpg"
           />
           <Product
-            id="3254354345"
+            id="325465354345"
             title="Handheld Sewing Machine with USB Cable Fast Stitch Portable Sewing Machine for Beginners Mini Electric Sewing Machine for DIY Home Travel"
             price={27.99}
             rating={4}
@@ -133,7 +133,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="90829332"
+            id="9082932332"
             title="Packard Bell 21 Inch Monitor FHD 1920 x 1080 , Dual Monitor, Ultrawide Monitor, Basic & Gaming Monitor – 2 Pack"
             price={245.98}
             rating={4}

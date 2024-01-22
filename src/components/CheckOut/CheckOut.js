@@ -12,11 +12,12 @@ function CheckOut() {
       <div className="checkout__left">
         <img
           className="checkout__ad"
-          src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
+          src="https://m.media-amazon.com/images/G/01/GiftCards/GCLP/D_Hero_eGC._SX3000_QL85_.jpg"
           alt=""
         />
         <h3>Hello {user?.email} </h3>
         <h2 className="checkout__title">Your Shopping Basket</h2>
+     
         {basket.map((product, index) => (
           <CheckOutProduct
             key={index}

@@ -18,6 +18,7 @@ const Payment = () => {
   const [succeeded, setSucceeded] = useState(false);
   const [processing, setProcessing] = useState("");
   const [clientSecret, setClientSecret] = useState(true);
+
   useEffect(() => {
     const getClientSecret = async () => {
       const response = await axios({
@@ -28,12 +29,16 @@ const Payment = () => {
     };
     getClientSecret();
   }, [basket]);
+
   console.log("The secret is >>>>", clientSecret);
+
   const getBasketTotal = (basket) =>
     basket.reduce((amount, item) => item.price + amount, 0);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setProcessing(true);
+    
     const payload = await stripe
       .confirmCardPayment(clientSecret, {
         payment_method: {
@@ -61,11 +66,15 @@ const Payment = () => {
         navigate("/orders");
       });
   };
+
   const handleChange = (e) => {
     console.log(e);
     setDisabled(e.empty);
     setError(e.error ? e.error.message : "");
   };
+
+
+
   return (
     <div className="payment">
       <div className="payment__container">
@@ -88,6 +97,7 @@ const Payment = () => {
           </div>
           <div className="payment__items">
             {basket.map((item) => (
+              
               <CheckoutProduct
                 id={item.id}
                 title={item.title}

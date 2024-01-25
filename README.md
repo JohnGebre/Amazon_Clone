@@ -1,4 +1,23 @@
-MIT License
+# Amazon Full Stack Clone
+
+This is a full stack clone of the Amazon website, built using the following technologies:
+- Frontend: React, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: Firebase Firestore
+- Payment Method: Stripe
+
+## Features
+
+- User authentication and authorization using Firebase Authentication
+- Product listing and search functionality
+- Shopping cart and checkout process
+- Order history and tracking
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## MIT License
 
 Copyright (c) 2024 Yohannes
 
